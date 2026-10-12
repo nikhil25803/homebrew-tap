@@ -24,6 +24,16 @@ brew install nikhil25803/tap/purrpeek
 
 Repository: https://github.com/nikhil25803/purrpeek
 
+### wordly
+
+**One shared Wordle every UTC day, played entirely in your terminal.**
+
+```bash
+brew install nikhil25803/tap/wordly
+```
+
+Repository: https://github.com/nikhil25803/wordly
+
 ## Updating
 
 Update the tap and upgrade installed formulae:
@@ -33,10 +43,11 @@ brew update
 brew upgrade
 ```
 
-To upgrade only `purrpeek`:
+To upgrade a specific formula:
 
 ```bash
 brew upgrade purrpeek
+brew upgrade wordly
 ```
 
 ## Uninstalling
@@ -45,6 +56,7 @@ To uninstall a formula:
 
 ```bash
 brew uninstall purrpeek
+brew uninstall wordly
 ```
 
 ## License
